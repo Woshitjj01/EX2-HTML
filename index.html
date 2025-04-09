@@ -4,132 +4,124 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>蜡笔小新</title>
-
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 <header>
-  <img src=".\assets\shin-chan-banner.jpg"width="700"height="200"/>
-  <img src=".\assets\naughtiest-son.jpg"width="300"height="200"/>
+  <img src=".\assets\shin-chan-banner.jpg" width="700" height="200"/>
+  <img src=".\assets\naughtiest-son.jpg" width="300" height="200"/>
 </header>
 
 <nav>
-  <a href="1">Shinchan:Shiro and the Coal Town Game</a>
-  <a href="2">Characters</a>
-  <a href="3">Who Is Your favorite ?</a>
+  <a href="#shinchan-game">Shinchan: Shiro and the Coal Town Game</a>
+  <a href="#characters">Characters</a>
+  <a href="#favorite-character">Who Is Your favorite ?</a>
 </nav>
-<section id="1" style="text-align: center;">
-  <h2>Shinchan: Shiro and the Coal Town Game</h2>
+<section id="zhuti" style="text-align: center;">
+  <h2 id="shinchan-game">Shinchan: Shiro and the Coal Town Game</h2>
   <h3>(Available on: Nintendo Switch and Windows PC)</h3>
 </section>
-<video width="1000 " height="500" controls>
-  <source src=".\assets\shinchan-and-the-coal-town.mp4"type="video/mp4">
+<video width="1000" height="500" controls>
+  <source src=".\assets\shinchan-and-the-coal-town.mp4" type="video/mp4">
 </video>
-<section id ="2">
-<h1>Character</h1>
+<section id="juese">
+  <h1 id="characters">Character</h1>
 </section>
 <table>
   <thead>
-  <tr>
-    <th>Shinnosuke Nohara(shinchan)</th>
-    <th>Misae Nohara(Mon)</th>
-    <th>Hiroshi Nohara(Dad)</th>
-  </tr>
+    <tr>
+      <th>Shinnosuke Nohara (Shinchan)</th>
+      <th>Misae Nohara (Mom)</th>
+      <th>Hiroshi Nohara (Dad)</th>
+    </tr>
   </thead>
   <tbody>
-  <tr>
-    <td><img src=".\assets\character-shinchan.png"width="=100"height="150"></td>
-    <td><img src=".\assets\character-misae.webp" width="=100"height="150"> </td>
-    <td><img src=".\assets\character-hiroshi.webp"width="100"height="150"></td>
-  </tr>
-  <tr>
-    <td>The mischievous 5-years-old protagonist known for his hilarious antics and love of choco chips</td>
-    <td>Shinchan's short-tempered but loving mother,always trying to keep him in line.</td>
-    <td>The laid-back father Who works at a company and enjoys his evening beer</td>
-  </tr>
+    <tr>
+      <td><img src=".\assets\character-shinchan.png" width="100" height="150"></td>
+      <td><img src=".\assets\character-misae.webp" width="100" height="150"></td>
+      <td><img src=".\assets\character-hiroshi.webp" width="100" height="150"></td>
+    </tr>
+    <tr>
+      <td>The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips</td>
+      <td>Shinchan's short-tempered but loving mother, always trying to keep him in line.</td>
+      <td>The laid-back father who works at a company and enjoys his evening beer</td>
+    </tr>
   </tbody>
   <thead>
-  <tr>
-    <th>Himawari(Sister)</th>
-    <th>Yukino Nohara(Shiro)</th>
-    <th>Toru Kazama</th>
-  </tr>
-  <thead>
+    <tr>
+      <th>Himawari (Sister)</th>
+      <th>Yukino Nohara (Shiro)</th>
+      <th>Toru Kazama</th>
+    </tr>
+  </thead>
   <tbody>
-  <tr>
-    <td><img src=".\assets\character-himawari.png"width="=100"height="150"></td>
-    <td><img src=".\assets\character-shiro.png" width="=100"height="150"> </td>
-    <td><img src=".\assets\character-toru-kazama.webp"width="100"height="150"></td>
-  </tr>
-  <tr>
-    <td>The youngest of the Noharas.Loves shiny objects and brand-name goods.Smiles sideways,like Shinchan</td>
-    <td>The family dog --small,fluffy,and sometimes the most sensible menber of the hoousehold</td>
-    <td>The smart and responsible friend of Shinchan,often the voice of reason in the group.</td>
-  </tr>
+    <tr>
+      <td><img src=".\assets\character-himawari.png" width="100" height="150"></td>
+      <td><img src=".\assets\character-shiro.png" width="100" height="150"></td>
+      <td><img src=".\assets\character-toru-kazama.webp" width="100" height="150"></td>
+    </tr>
+    <tr>
+      <td>The youngest of the Noharas. Loves shiny objects and brand-name goods. Smiles sideways, like Shinchan</td>
+      <td>The family dog — small, fluffy, and sometimes the most sensible member of the household</td>
+      <td>The smart and responsible friend of Shinchan, often the voice of reason in the group.</td>
+    </tr>
   </tbody>
 </table>
 <form action="/" method="post">
-  <label for="character">Who is your favorite character?:</label>
-  <select id="character" name="character">
-    <option value="shinchan">shinchan</option>
+  <label for="character" id="favorite-character">Who is your favorite character?:</label>
+  <select id="character" name="character" >
+    <option value="shinchan">Shinchan</option>
     <option value="Mon">Misae Nohara</option>
     <option value="Dad">Hiroshi Nohara</option>
     <option value="Sister">Himawari</option>
     <option value="Shiro">Yukino Nohara</option>
     <option value="风间">Toru Kazama</option>
   </select>
-<section>
-  <h1>Character not in the list?Write their name below</h1>
-</section>
+  <section>
+    <h1>Character not in the list? Write their name below</h1>
+  </section>
   <br>
-  <label for="name">your other favourite character:</label>
-  <input type="text" id="name" name="name" required>
+  <label for="name">Your other favorite character:</label>
+  <input type="text" id="name" name="name" placeholder="Enter character name" required>
   <br>
-
-  <label for="reason">why do you like this character:</label>
-  <input type="text" id="reason" name="reason" required>
-
+  <label for="reason">Why do you like this character:</label>
+  <input type="text" id="reason" name="reason" placeholder="State your reasons in a couple of lines..." required>
   <br>
   <section>
-    <h1>tell me a bit more about yourself</h1>
+    <h1>Tell me a bit more about yourself</h1>
   </section>
-
   <br>
-  <label for="name">enter your name:</label>
-  <input type="text" id="yourname" name="name" required>
+  <label for="yourname">Enter your name:</label>
+  <input type="text" id="yourname" name="name" placeholder="Enter your name" required>
   <br>
-
   <label>Your Gender:</label>
   <input type="radio" id="male" name="gender" value="male" checked>
-  <label for="male">man</label>
+  <label for="male">Male</label>
   <input type="radio" id="female" name="gender" value="female">
-  <label for="female">female</label>
-
+  <label for="female">Female</label>
   <br>
   <label>
-    <span> your date of birth</span>
+    <span>Your date of birth</span>
     <input type="datetime-local" class="measureDate" placeholder="请选择日期">
   </label>
-
   <script type="text/javascript">
-    let date = new Date()
-    let yyyy = date.getFullYear()
-    let MM = (date.getMonth() + 1) < 10 ? ("0" + (date.getMonth() + 1)) : (date.getMonth() + 1)
-    let dd = date.getDate() < 10 ? ("0" + date.getDate()) : date.getDate()
-
-
+    let date = new Date();
+    let yyyy = date.getFullYear();
+    let MM = (date.getMonth() + 1) < 10 ? ("0" + (date.getMonth() + 1)) : (date.getMonth() + 1);
+    let dd = date.getDate() < 10 ? ("0" + date.getDate()) : date.getDate();
     let curDay = yyyy + '-' + MM + '-' + dd;
-    $('.measureDate').val(curDay)
-    console.log(date)
+    $('.measureDate').val(curDay);
+    console.log(date);
   </script>
   <br>
-  <label for="name">enter your email:</label>
-  <input type="text" id="email" name="name" required>
+  <label for="email">Enter your email:</label>
+  <input type="text" id="email" name="name" placeholder="Enter your email" required>
   <br>
-  <input type="submit" value="submit">
+  <input type="submit" value="Submit">
 </form>
 <footer>
   <p>@2025 Programming4</p>
-  <p>Get in touch with us:<a href="4">shinchan-lovers@justlearninghtml.com</a></p>
+  <p>Get in touch with us: <a href="mailto:shinchan-lovers@justlearninghtml.com">shinchan-lovers@justlearninghtml.com</a></p>
 </footer>
 </body>
 </html>
